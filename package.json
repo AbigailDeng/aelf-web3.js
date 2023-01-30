@@ -65,7 +65,6 @@
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/plugin-transform-runtime": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
-    "@size-limit/preset-app": "^8.1.2",
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
     "bundle-analyzer": "^0.0.6",
