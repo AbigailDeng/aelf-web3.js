@@ -14,7 +14,7 @@ import * as proto from './util/proto';
 import * as transform from './util/transform';
 import Settings from './util/settings';
 
-const { sha256 } = jsSha256;
+let { sha256 } = jsSha256;
 /* eslint-disable no-underscore-dangle */
 export default class AElf {
   constructor(provider) {
@@ -26,7 +26,7 @@ export default class AElf {
   static version = process.env.SDK_VERSION;
 
   static providers = {
-    HttpProvider
+    HttpProvider,
   };
 
   /**
@@ -42,11 +42,11 @@ export default class AElf {
     ...utils,
     ...bloom,
     sha256,
-    transform
+    transform,
   };
 
   providers = {
-    HttpProvider
+    HttpProvider,
   };
 
   settings = new Settings();
@@ -56,7 +56,7 @@ export default class AElf {
    * @type {{api: string}}
    */
   version = {
-    api: process.env.SDK_VERSION
+    api: process.env.SDK_VERSION,
   };
 
   /**
