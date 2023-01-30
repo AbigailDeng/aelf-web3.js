@@ -14,7 +14,7 @@ import * as proto from './util/proto';
 import * as transform from './util/transform';
 import Settings from './util/settings';
 
-let { sha256 } = jsSha256;
+const { sha256 } = jsSha256;
 /* eslint-disable no-underscore-dangle */
 export default class AElf {
   constructor(provider) {
