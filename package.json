@@ -22,7 +22,7 @@
     "test:browser:watch": "jest --config=jest.browser.config.js --watch",
     "test:node": "jest --config=jest.node.config.js",
     "test:node:watch": "jest --config=jest.node.config.js --watch",
-    "version": "conventional-changelog -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "keywords": [
     "aelf-sdk"
