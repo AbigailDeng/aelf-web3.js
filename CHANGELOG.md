@@ -1,3 +1,17 @@
+## [3.3.8](https://github.com/AbigailDeng/aelf-web3.js/compare/v3.3.7...v3.3.8) (2023-05-05)
+
+
+### Features
+
+* add script ([1e04109](https://github.com/AbigailDeng/aelf-web3.js/commit/1e04109e2123d0a1a42b71e9bf183a71a3f058be))
+* add size-limit ([a3bb10d](https://github.com/AbigailDeng/aelf-web3.js/commit/a3bb10d04c7cae8496ee3eb28194b91239d66693))
+* add size-limit ([5e811dc](https://github.com/AbigailDeng/aelf-web3.js/commit/5e811dc298a63c1b35a7383e7ddcda025c37c018))
+* changelog script ([587c40a](https://github.com/AbigailDeng/aelf-web3.js/commit/587c40a093a661d7fd087c97e7c3bdeb98a32d48))
+* test changelog ([c3669ba](https://github.com/AbigailDeng/aelf-web3.js/commit/c3669ba1f3a0757af992146c82568cab37bcc978))
+* token ([0876a86](https://github.com/AbigailDeng/aelf-web3.js/commit/0876a8605dfab2c70c9ba4e91fb88b0edbf79816))
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
